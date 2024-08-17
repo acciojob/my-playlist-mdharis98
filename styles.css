@@ -1,1 +1,46 @@
-/*  your css code here. If applicable */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.playlist-container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+a {
+    text-decoration-line: none;
+    color: #000;
+    display: block;
+}
+
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+video, audio {
+    width: 100%;
+    border-radius: 8px;
+}
